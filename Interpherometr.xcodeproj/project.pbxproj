@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3071D491CE0F0AA00B880BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D481CE0F0AA00B880BB /* AppDelegate.swift */; };
+		B3071D4B1CE0F0AA00B880BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D4A1CE0F0AA00B880BB /* ViewController.swift */; };
+		B3071D4E1CE0F0AA00B880BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3071D4C1CE0F0AA00B880BB /* Main.storyboard */; };
+		B3071D501CE0F0AA00B880BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3071D4F1CE0F0AA00B880BB /* Assets.xcassets */; };
+		B3071D531CE0F0AA00B880BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3071D511CE0F0AA00B880BB /* LaunchScreen.storyboard */; };
+		B3071D5E1CE0F0AA00B880BB /* InterpherometrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D5D1CE0F0AA00B880BB /* InterpherometrTests.swift */; };
+		B3071D691CE0F0AA00B880BB /* InterpherometrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D681CE0F0AA00B880BB /* InterpherometrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3071D5A1CE0F0AA00B880BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3071D3D1CE0F0AA00B880BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3071D441CE0F0AA00B880BB;
+			remoteInfo = Interpherometr;
+		};
+		B3071D651CE0F0AA00B880BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3071D3D1CE0F0AA00B880BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3071D441CE0F0AA00B880BB;
+			remoteInfo = Interpherometr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3071D451CE0F0AA00B880BB /* Interpherometr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interpherometr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3071D481CE0F0AA00B880BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3071D4A1CE0F0AA00B880BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3071D4D1CE0F0AA00B880BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3071D4F1CE0F0AA00B880BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3071D521CE0F0AA00B880BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3071D541CE0F0AA00B880BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3071D591CE0F0AA00B880BB /* InterpherometrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpherometrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3071D5D1CE0F0AA00B880BB /* InterpherometrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpherometrTests.swift; sourceTree = "<group>"; };
+		B3071D5F1CE0F0AA00B880BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3071D641CE0F0AA00B880BB /* InterpherometrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpherometrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3071D681CE0F0AA00B880BB /* InterpherometrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpherometrUITests.swift; sourceTree = "<group>"; };
+		B3071D6A1CE0F0AA00B880BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3071D421CE0F0AA00B880BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D561CE0F0AA00B880BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D611CE0F0AA00B880BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3071D3C1CE0F0AA00B880BB = {
+			isa = PBXGroup;
+			children = (
+				B3071D471CE0F0AA00B880BB /* Interpherometr */,
+				B3071D5C1CE0F0AA00B880BB /* InterpherometrTests */,
+				B3071D671CE0F0AA00B880BB /* InterpherometrUITests */,
+				B3071D461CE0F0AA00B880BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3071D461CE0F0AA00B880BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3071D451CE0F0AA00B880BB /* Interpherometr.app */,
+				B3071D591CE0F0AA00B880BB /* InterpherometrTests.xctest */,
+				B3071D641CE0F0AA00B880BB /* InterpherometrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3071D471CE0F0AA00B880BB /* Interpherometr */ = {
+			isa = PBXGroup;
+			children = (
+				B3071D481CE0F0AA00B880BB /* AppDelegate.swift */,
+				B3071D4A1CE0F0AA00B880BB /* ViewController.swift */,
+				B3071D4C1CE0F0AA00B880BB /* Main.storyboard */,
+				B3071D4F1CE0F0AA00B880BB /* Assets.xcassets */,
+				B3071D511CE0F0AA00B880BB /* LaunchScreen.storyboard */,
+				B3071D541CE0F0AA00B880BB /* Info.plist */,
+			);
+			path = Interpherometr;
+			sourceTree = "<group>";
+		};
+		B3071D5C1CE0F0AA00B880BB /* InterpherometrTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3071D5D1CE0F0AA00B880BB /* InterpherometrTests.swift */,
+				B3071D5F1CE0F0AA00B880BB /* Info.plist */,
+			);
+			path = InterpherometrTests;
+			sourceTree = "<group>";
+		};
+		B3071D671CE0F0AA00B880BB /* InterpherometrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3071D681CE0F0AA00B880BB /* InterpherometrUITests.swift */,
+				B3071D6A1CE0F0AA00B880BB /* Info.plist */,
+			);
+			path = InterpherometrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3071D441CE0F0AA00B880BB /* Interpherometr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3071D6D1CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "Interpherometr" */;
+			buildPhases = (
+				B3071D411CE0F0AA00B880BB /* Sources */,
+				B3071D421CE0F0AA00B880BB /* Frameworks */,
+				B3071D431CE0F0AA00B880BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interpherometr;
+			productName = Interpherometr;
+			productReference = B3071D451CE0F0AA00B880BB /* Interpherometr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3071D581CE0F0AA00B880BB /* InterpherometrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3071D701CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrTests" */;
+			buildPhases = (
+				B3071D551CE0F0AA00B880BB /* Sources */,
+				B3071D561CE0F0AA00B880BB /* Frameworks */,
+				B3071D571CE0F0AA00B880BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3071D5B1CE0F0AA00B880BB /* PBXTargetDependency */,
+			);
+			name = InterpherometrTests;
+			productName = InterpherometrTests;
+			productReference = B3071D591CE0F0AA00B880BB /* InterpherometrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3071D631CE0F0AA00B880BB /* InterpherometrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3071D731CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrUITests" */;
+			buildPhases = (
+				B3071D601CE0F0AA00B880BB /* Sources */,
+				B3071D611CE0F0AA00B880BB /* Frameworks */,
+				B3071D621CE0F0AA00B880BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3071D661CE0F0AA00B880BB /* PBXTargetDependency */,
+			);
+			name = InterpherometrUITests;
+			productName = InterpherometrUITests;
+			productReference = B3071D641CE0F0AA00B880BB /* InterpherometrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3071D3D1CE0F0AA00B880BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hena Sofronov";
+				TargetAttributes = {
+					B3071D441CE0F0AA00B880BB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B3071D581CE0F0AA00B880BB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B3071D441CE0F0AA00B880BB;
+					};
+					B3071D631CE0F0AA00B880BB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B3071D441CE0F0AA00B880BB;
+					};
+				};
+			};
+			buildConfigurationList = B3071D401CE0F0AA00B880BB /* Build configuration list for PBXProject "Interpherometr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3071D3C1CE0F0AA00B880BB;
+			productRefGroup = B3071D461CE0F0AA00B880BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3071D441CE0F0AA00B880BB /* Interpherometr */,
+				B3071D581CE0F0AA00B880BB /* InterpherometrTests */,
+				B3071D631CE0F0AA00B880BB /* InterpherometrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3071D431CE0F0AA00B880BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3071D531CE0F0AA00B880BB /* LaunchScreen.storyboard in Resources */,
+				B3071D501CE0F0AA00B880BB /* Assets.xcassets in Resources */,
+				B3071D4E1CE0F0AA00B880BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D571CE0F0AA00B880BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D621CE0F0AA00B880BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3071D411CE0F0AA00B880BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3071D4B1CE0F0AA00B880BB /* ViewController.swift in Sources */,
+				B3071D491CE0F0AA00B880BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D551CE0F0AA00B880BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3071D5E1CE0F0AA00B880BB /* InterpherometrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3071D601CE0F0AA00B880BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3071D691CE0F0AA00B880BB /* InterpherometrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3071D5B1CE0F0AA00B880BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3071D441CE0F0AA00B880BB /* Interpherometr */;
+			targetProxy = B3071D5A1CE0F0AA00B880BB /* PBXContainerItemProxy */;
+		};
+		B3071D661CE0F0AA00B880BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3071D441CE0F0AA00B880BB /* Interpherometr */;
+			targetProxy = B3071D651CE0F0AA00B880BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3071D4C1CE0F0AA00B880BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3071D4D1CE0F0AA00B880BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3071D511CE0F0AA00B880BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3071D521CE0F0AA00B880BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3071D6B1CE0F0AA00B880BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3071D6C1CE0F0AA00B880BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3071D6E1CE0F0AA00B880BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interpherometr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.Interpherometr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3071D6F1CE0F0AA00B880BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Interpherometr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.Interpherometr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3071D711CE0F0AA00B880BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InterpherometrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.InterpherometrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interpherometr.app/Interpherometr";
+			};
+			name = Debug;
+		};
+		B3071D721CE0F0AA00B880BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InterpherometrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.InterpherometrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interpherometr.app/Interpherometr";
+			};
+			name = Release;
+		};
+		B3071D741CE0F0AA00B880BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InterpherometrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.InterpherometrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Interpherometr;
+			};
+			name = Debug;
+		};
+		B3071D751CE0F0AA00B880BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InterpherometrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coderivium.InterpherometrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Interpherometr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3071D401CE0F0AA00B880BB /* Build configuration list for PBXProject "Interpherometr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3071D6B1CE0F0AA00B880BB /* Debug */,
+				B3071D6C1CE0F0AA00B880BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3071D6D1CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "Interpherometr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3071D6E1CE0F0AA00B880BB /* Debug */,
+				B3071D6F1CE0F0AA00B880BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3071D701CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3071D711CE0F0AA00B880BB /* Debug */,
+				B3071D721CE0F0AA00B880BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3071D731CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3071D741CE0F0AA00B880BB /* Debug */,
+				B3071D751CE0F0AA00B880BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3071D3D1CE0F0AA00B880BB /* Project object */;
+}
