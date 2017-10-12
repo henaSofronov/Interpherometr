@@ -14,6 +14,11 @@
 		B3071D531CE0F0AA00B880BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3071D511CE0F0AA00B880BB /* LaunchScreen.storyboard */; };
 		B3071D5E1CE0F0AA00B880BB /* InterpherometrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D5D1CE0F0AA00B880BB /* InterpherometrTests.swift */; };
 		B3071D691CE0F0AA00B880BB /* InterpherometrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D681CE0F0AA00B880BB /* InterpherometrUITests.swift */; };
+		B3071D7D1CE73CD200B880BB /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D7C1CE73CD200B880BB /* ImageProcessor.swift */; };
+		B3071D7F1CE915D700B880BB /* Bitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3071D7E1CE915D700B880BB /* Bitmap.swift */; };
+		B3407C051D031ABA00815AB8 /* ReliefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3407C041D031ABA00815AB8 /* ReliefViewController.swift */; };
+		B3976CBD1D0CB51400EF8E0E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3976CBC1D0CB51400EF8E0E /* GLKit.framework */; };
+		B3976CCD1D0CB64B00EF8E0E /* DominantColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3976CCC1D0CB60300EF8E0E /* DominantColor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,34 @@
 			remoteGlobalIDString = B3071D441CE0F0AA00B880BB;
 			remoteInfo = Interpherometr;
 		};
+		B3976CC51D0CB60300EF8E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 72D797B81A43F44D00D32E7C;
+			remoteInfo = ExampleMac;
+		};
+		B3976CC71D0CB60300EF8E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 898845D21A490CE000003EF2;
+			remoteInfo = ExampleiOS;
+		};
+		B3976CC91D0CB60300EF8E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 723DE5361A49353C00C357E3;
+			remoteInfo = "DominantColor-Mac";
+		};
+		B3976CCB1D0CB60300EF8E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 723DE59F1A4938DD00C357E3;
+			remoteInfo = "DominantColor-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +80,11 @@
 		B3071D641CE0F0AA00B880BB /* InterpherometrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterpherometrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3071D681CE0F0AA00B880BB /* InterpherometrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpherometrUITests.swift; sourceTree = "<group>"; };
 		B3071D6A1CE0F0AA00B880BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3071D7C1CE73CD200B880BB /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		B3071D7E1CE915D700B880BB /* Bitmap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitmap.swift; sourceTree = "<group>"; };
+		B3407C041D031ABA00815AB8 /* ReliefViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReliefViewController.swift; sourceTree = "<group>"; };
+		B3976CBC1D0CB51400EF8E0E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DominantColor.xcodeproj; path = lab/DominantColor.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3976CCD1D0CB64B00EF8E0E /* DominantColor.framework in Frameworks */,
+				B3976CBD1D0CB51400EF8E0E /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +117,7 @@
 		B3071D3C1CE0F0AA00B880BB = {
 			isa = PBXGroup;
 			children = (
+				B3976CBC1D0CB51400EF8E0E /* GLKit.framework */,
 				B3071D471CE0F0AA00B880BB /* Interpherometr */,
 				B3071D5C1CE0F0AA00B880BB /* InterpherometrTests */,
 				B3071D671CE0F0AA00B880BB /* InterpherometrUITests */,
@@ -97,12 +138,16 @@
 		B3071D471CE0F0AA00B880BB /* Interpherometr */ = {
 			isa = PBXGroup;
 			children = (
+				B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */,
 				B3071D481CE0F0AA00B880BB /* AppDelegate.swift */,
 				B3071D4A1CE0F0AA00B880BB /* ViewController.swift */,
+				B3407C041D031ABA00815AB8 /* ReliefViewController.swift */,
 				B3071D4C1CE0F0AA00B880BB /* Main.storyboard */,
 				B3071D4F1CE0F0AA00B880BB /* Assets.xcassets */,
 				B3071D511CE0F0AA00B880BB /* LaunchScreen.storyboard */,
 				B3071D541CE0F0AA00B880BB /* Info.plist */,
+				B3071D7C1CE73CD200B880BB /* ImageProcessor.swift */,
+				B3071D7E1CE915D700B880BB /* Bitmap.swift */,
 			);
 			path = Interpherometr;
 			sourceTree = "<group>";
@@ -123,6 +168,17 @@
 				B3071D6A1CE0F0AA00B880BB /* Info.plist */,
 			);
 			path = InterpherometrUITests;
+			sourceTree = "<group>";
+		};
+		B3976CBF1D0CB60300EF8E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3976CC61D0CB60300EF8E0E /* ExampleMac.app */,
+				B3976CC81D0CB60300EF8E0E /* ExampleiOS.app */,
+				B3976CCA1D0CB60300EF8E0E /* DominantColor.framework */,
+				B3976CCC1D0CB60300EF8E0E /* DominantColor.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +249,7 @@
 				TargetAttributes = {
 					B3071D441CE0F0AA00B880BB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6GHBTAS8V4;
 					};
 					B3071D581CE0F0AA00B880BB = {
 						CreatedOnToolsVersion = 7.3;
@@ -215,6 +272,12 @@
 			mainGroup = B3071D3C1CE0F0AA00B880BB;
 			productRefGroup = B3071D461CE0F0AA00B880BB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3976CBF1D0CB60300EF8E0E /* Products */;
+					ProjectRef = B3976CBE1D0CB60300EF8E0E /* DominantColor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B3071D441CE0F0AA00B880BB /* Interpherometr */,
@@ -223,6 +286,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3976CC61D0CB60300EF8E0E /* ExampleMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExampleMac.app;
+			remoteRef = B3976CC51D0CB60300EF8E0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3976CC81D0CB60300EF8E0E /* ExampleiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExampleiOS.app;
+			remoteRef = B3976CC71D0CB60300EF8E0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3976CCA1D0CB60300EF8E0E /* DominantColor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DominantColor.framework;
+			remoteRef = B3976CC91D0CB60300EF8E0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3976CCC1D0CB60300EF8E0E /* DominantColor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DominantColor.framework;
+			remoteRef = B3976CCB1D0CB60300EF8E0E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B3071D431CE0F0AA00B880BB /* Resources */ = {
@@ -256,8 +350,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3071D7F1CE915D700B880BB /* Bitmap.swift in Sources */,
 				B3071D4B1CE0F0AA00B880BB /* ViewController.swift in Sources */,
+				B3071D7D1CE73CD200B880BB /* ImageProcessor.swift in Sources */,
 				B3071D491CE0F0AA00B880BB /* AppDelegate.swift in Sources */,
+				B3407C051D031ABA00815AB8 /* ReliefViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +498,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Interpherometr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderivium.Interpherometr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +511,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Interpherometr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coderivium.Interpherometr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +585,7 @@
 				B3071D6F1CE0F0AA00B880BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3071D701CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +594,7 @@
 				B3071D721CE0F0AA00B880BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3071D731CE0F0AA00B880BB /* Build configuration list for PBXNativeTarget "InterpherometrUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +603,7 @@
 				B3071D751CE0F0AA00B880BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
